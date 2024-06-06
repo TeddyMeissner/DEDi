@@ -1,4 +1,4 @@
-# Sparse Regression Strategy for Discovery of Ordinary and Partial Differential Equations from Incomplete and Noisy Data
+# Sparse regression method for discovery of ordinary and partial differential equations from incomplete and noisy data
 
 This project implements a sparse regression strategy to discover ordinary and partial differential equations (ODEs and PDEs) from incomplete and noisy data. The inference is performed over both the equation parameters and state variables using a statistically motivated likelihood function. Sparsity is enforced by a selection algorithm that iteratively removes terms and compares models using statistical information criteria. Large-scale optimization is performed using a second-order variant of the Levenberg-Marquardt method, where the gradient and Hessian are computed via automatic differentiation. 
 
