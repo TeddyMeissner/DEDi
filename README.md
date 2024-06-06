@@ -42,7 +42,9 @@ FullModels,latex_code = discoverLorenz.PrintModels(ICCutoff=10,return_latex = Tr
 opt_states,opt_params = discoverLorenz.unravel_states_and_parameters(discoverLorenz.states_and_parameters)
 
 ```
+
 Found Equations:
+
 $$\begin{align*}
 \dot{x_1} &= -9.301x_1 + 9.370x_2 \\
 \dot{x_2} &= 28.878x_1 - 1.137x_2 - 1.014x_1 x_3 \\
