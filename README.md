@@ -76,15 +76,17 @@ This project requires the following software and libraries to be installed:
 
 ### For full reproducibility
 
-Install **Python 3.11.11** and follow the steps below to set up a clean environment.
+Project was tested on **Python 3.11.11**. Follow the steps below to set up a clean environment.
 
 ### Setup Instructions
 
-Clone the repository and navigate to it, then:
+Clone the repository, then:
 
 ```bash
 
+# Navigate to wherever you want this python environment to be
 python3.11 -m venv sparse_discovery_env
 source sparse_discovery_env/bin/activate
 
+#Navigate to cloned repository
 pip install -r requirements.txt
